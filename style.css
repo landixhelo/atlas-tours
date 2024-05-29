@@ -79,7 +79,7 @@ a {
 #button {
   background: #24416b;
   border: 3px solid #24416b !important;
-  border-radius: 0px !important;
+  border-radius: 5px !important;
   color: white !important;
   font-size: 15px;
   font-weight: bold;
@@ -87,7 +87,6 @@ a {
   padding: 10px 30px;
   position: relative;
   text-transform: uppercase;
-  border-radius: 10px;
   font-family: "Lato", sans-serif;
 }
 
@@ -1176,15 +1175,18 @@ a {
 
 .about-description .country {
     margin: 0 auto !important;
-}
-.about-description .country img{
     position: relative;
 }
 
-.about-description .country h2 {
-    position: absolute;
-    left: 600px;
-    top: 5px;
+.about-description .country img {
+    top: 0;
+    margin: 0 auto;
+}
+.about-description .country h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -27px;
 }
 
 /* tours */
@@ -1202,15 +1204,18 @@ a {
 
 .tours-description .country {
     margin: 0 auto !important;
-}
-.tours-description .country img{
     position: relative;
 }
 
-.tours-description .country h2 {
-    position: absolute;
-    left: 600px;
-    top: 5px;
+.tours-description .country img {
+    top: 0;
+    margin: 0 auto;
+}
+.tours-description .country h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -27px;
 }
 
 /* contact-html */
@@ -1228,15 +1233,18 @@ a {
 
 .contact-description .country {
     margin: 0 auto !important;
-}
-.contact-description .country img{
     position: relative;
 }
 
-.contact-description .country h2 {
-    position: absolute;
-    left: 600px;
-    top: 5px;
+.contact-description .country img {
+    top: 0;
+    margin: 0 auto;
+}
+.contact-description .country h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -27px;
 }
 
 .contact-page .single-contact {
@@ -1293,4 +1301,314 @@ a {
     font-size: 16px;
     font-weight: 500;
     padding-top: 10px;
+}
+
+@media (max-width:1200px) {
+    .country {
+        margin-top: 100px;
+    }
+}
+@media (max-width:1100px) {
+   /* navbar */
+   .navbar-nav a {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    /* color: rgb(117, 113, 113); */
+  }
+
+  .primary-btn1 {
+    border-radius: 5px;
+    background-color: #63ab45;
+    font-weight: 600;
+    font-size: 16px !important;
+    color: white;
+    letter-spacing: .48px;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 15px 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+#button {
+    background: #24416b;
+    border: 3px solid #24416b !important;
+    border-radius: 5px !important;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 20px !important;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+  }
+
+    .country {
+        margin-top: 100px;
+    }
+
+    .index-header h2 {
+        font-size: 35px;
+    }
+
+    .index-header p {
+        font-size: 16px;
+    }
+
+    /* about */
+    .about-dsc h2 {
+        font-size: 35px;
+    }
+
+    .about-desc h2 {
+        font-size: 18px;
+        margin-right:10px ;
+    }
+
+    .about-pharagraph p {
+        font-size: 15px;
+    }
+
+    /* vacation */
+    .vacation-ds h2 {
+        font-size: 35px;
+    }
+
+    .destination-card .card-title h4 {
+        font-size: 25px !important;
+    }
+
+    .destination-banner h2 {
+        font-size: 30px;
+    }
+
+    /* tour */
+    .tour-ds h2 {
+        font-size: 35px;
+    }
+
+    .card-content-top h5 {
+        font-size: 17px !important;
+        margin-top: 10px;
+    }
+
+    .package-card {
+        margin: 15px 0;
+    }
+
+    .card-content-bottom .price-area h6 {
+        font-size: 15px !important;
+    }
+
+    .package-card-img-wrap .card-img img {
+        height: 350px;
+    }
+
+    /* facilities */
+    .faci-description h2 {
+        font-size: 35px;
+    }
+
+    .faci-description p {
+        font-size: 15px !important;
+    }
+
+    .list-of-facilities h3 {
+        font-size: 20px;
+    }
+
+    /* succes */
+    .succes-ds h2 {
+        font-size: 35px;
+    }
+
+    .feature-card .feature-card-icon svg {
+        fill: #63ab45;
+        transition: .5s;
+        width: 40px !important;
+    }
+    
+    .feature-card .feature-card-icon svg:hover {
+        fill: white;
+        transition: .5s;
+        width: 40px !important;
+    }
+
+    .feature-card-content h6 {
+        font-size: 19px !important;
+    }
+
+    .feature-card-content p {
+        font-size: 15px;
+    }
+
+    /* testimonials */
+    
+    .testimonials-ds h2 {
+        font-size: 35px;
+    }
+
+    .testimonial-content p {
+        font-size: 15px !important;
+    }
+
+    .testimonial-bottom .date-and-time p span {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width:900px) {
+    /* navbar */
+   .navbar-nav a {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    /* color: rgb(117, 113, 113); */
+  }
+
+  .primary-btn1 {
+    border-radius: 5px;
+    background-color: #63ab45;
+    font-weight: 600;
+    font-size: 16px !important;
+    color: white;
+    letter-spacing: .48px;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+#button {
+    background: #24416b;
+    border: 3px solid #24416b !important;
+    border-radius: 5px !important;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 8px 17px !important;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+  }
+    .index-header h2 {
+        font-size: 25px !important;
+        max-width: 90%;
+        margin: 15px auto;
+    }
+
+    .index-header p {
+        font-size: 14px;
+        max-width: 70%;
+        margin: 15px auto;
+    }
+
+    /* about */
+    .about-dsc h2 {
+        font-size: 25px;
+    }
+
+    .about-desc h2 {
+        font-size: 18px;
+    }
+
+    .about-pharagraph p {
+        font-size: 13px;
+    }
+
+    .about-img img{
+        height: 400px;
+    }
+
+    /* vacation */
+    .vacation-ds h4 {
+        font-size: 20px;
+    }
+    .vacation-ds h2 {
+        font-size: 25px;
+    }
+
+    /* tour */
+    .tour-ds h4 {
+        font-size: 20px;
+    }
+
+    .tour-ds h2 {
+        font-size: 25px;
+    }
+
+    /* facilities */
+    .faci-description h4 {
+        font-size: 20px;
+    }
+
+    .faci-description h2 {
+        font-size: 25px;
+    }
+
+    .faci-description p {
+        font-size: 13px;
+    }
+
+    .list-of-facilities h3 {
+        font-size: 17px;
+    }
+
+    /* succes */
+    .succes-ds h4 {
+        font-size: 20px;
+    }
+
+    .succes-ds h2 {
+        font-size: 25px;
+    }
+
+    .feature-card-content h6 {
+        font-size: 18px !important;
+    }
+
+    .feature-card-content p {
+        font-size: 14px !important;
+    }
+
+    /* testimonials */
+    .tesimonial-card-wrapper {
+        margin: 15px 0;
+    }
+    .testimonials-ds h4 {
+        font-size: 20px;
+    }
+
+    .testimonials-ds h2 {
+        font-size: 25px;
+    }
+
+    .testimonial-content p {
+        font-size: 14px !important;
+    }
+
+    .testimonial-bottom p + span{
+        font-size: 14px !important;
+    }
+
+    /* contact  */
+    .contact-page {
+        margin: 15px 0;
+    }
 }
