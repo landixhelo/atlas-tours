@@ -1307,6 +1307,10 @@ a {
     .country {
         margin-top: 100px;
     }
+
+    .tesimonial-card-wrapper .tesimonial-card {
+        height: 300px;
+    }
 }
 @media (max-width:1100px) {
    /* navbar */
@@ -1610,6 +1614,10 @@ a {
     /* contact  */
     .contact-page {
         margin: 15px 0;
+    }
+
+    .tesimonial-card-wrapper .tesimonial-card {
+        height: 250px;
     }
 }
 /* sassa */
