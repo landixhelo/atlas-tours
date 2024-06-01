@@ -1479,6 +1479,18 @@ a {
 }
 
 @media (max-width:900px) {
+    .mobil {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .mobil .primary-btn1 {
+        width: 120px;
+        margin-top: 20px;
+    }
+        
     /* navbar */
    .navbar-nav a {
     margin-left: 10px;
